@@ -1,0 +1,19 @@
+## Deliverable
+
+Script storing text docs & retrieving by semantic similarity — index small dataset and demonstrate top-k results
+RAG with OpenAI + Pinecone
+
+
+- Converts text into embeddings using OpenAI
+- Stores embeddings in Pinecone
+- Converts user queries into embeddings
+- Performs vector similarity search
+- Returns the most relevant stored documents
+
+## Setup
+
+- activate venv
+- install dependencies (openai pinecone_client jupyter)
+
+
+## This project requires apikeys for both openai and pinecone# Flexisaf_Task_5
